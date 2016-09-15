@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <title>Kalkulator walut</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <h1>
+                    <a href="#">Kalkulator<strong>walut</strong></a>
+                </h1>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-js">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="nav-js">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#page-course">Aktualny kurs</a></li>
+                    <li><a href="#page-calc">Kalkulator</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <img src="images/zdj.jpg" class="header-img">
+    <section class="page-course">
+        <div class="container">
+        <h2 class="section-header">Aktualny kurs walut</h2>
+            <div class="row">
+                <div class="col-sm-6">
+                    <table class="course-table">
+                        <tr>
+                            <th></th><td>Sprzedaż</td><td>Kupno</td><td>%</td>
+                        </tr>
+                        <tr>
+                            <th>PLN / EUR</th><td>4.30</td><td>4.45</td><td>+ 1.2%</td>
+                        </tr>
+                        <tr>
+                            <th>PLN / USD</th><td>3,79</td><td>3.94</td><td>+ 1.2%</td>
+                        </tr>
+                        <tr>
+                            <th>PLN / EUR</th><td>4.30</td><td>4.45</td><td>+ 1.2%</td>
+                        </tr>
+                        <tr>
+                            <th>PLN / USD</th><td>3,79</td><td>3.94</td><td>+ 1.2%</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-sm-6">
+                    <table class="course-table">
+                        <tr>
+                            <th></th><td>Sprzedaż</td><td>Kupno</td><td>%</td>
+                        </tr>
+                        <tr>
+                            <th>PLN / EUR</th><td>4.30</td><td>4.45</td><td>+ 1.2%</td>
+                        </tr>
+                        <tr>
+                            <th>PLN / USD</th><td>3,79</td><td>3.94</td><td>+ 1.2%</td>
+                        </tr>
+                        <tr>
+                            <th>PLN / EUR</th><td>4.30</td><td>4.45</td><td>+ 1.2%</td>
+                        </tr>
+                        <tr>
+                            <th>PLN / USD</th><td>3,79</td><td>3.94</td><td>+ 1.2%</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-calc">
+        <div class="container">
+            <h2 class="section-header">Kalkulator</h2>
+            <p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmod tempor incidunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+            <form class="calc">
+                <ul>
+                    <li>
+                        <label>Wybierz walute</label>
+                        <select>
+                            <option>PLN -> USD</option>
+                            <option>PLN -> EUR</option>
+                            <option>PLN -> CHN</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label>Kwota w pln</label>
+                        <input type="num">
+                    </li>
+                    <li class="arr">
+                        <span>&#60;&#62;</span>
+                    </li>
+                    <li>
+                        <label>kwota w usd</label>
+                        <input type="num">
+                    </li>
+                    <li class="course">
+                        <p>Kurs: <span id="output">3,83</span></p>
+                    </li>
+                    <li class="submit">
+                        <button type="button" class="btn btn-info">Oblicz</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </section>
+    <script src="script/js.js"></script>
+    <script src=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js crossorigin=anonymous integrity=sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa></script>
+</body>
+
+</html>
